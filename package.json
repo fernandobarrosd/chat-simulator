@@ -1,0 +1,17 @@
+{
+  "name": "vite-template",
+  "version": "1.0.0",
+  "repository": "https://github.com/fernandobarrosd/vite-template.git",
+  "author": "Fernando de Barros <fdebarros0910-2004@hotmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:dev": "vite",
+    "start": "vite preview",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "vite": "^5.2.8"
+  }
+}
