@@ -8,6 +8,12 @@ export default defineConfig({
         port: 5000
     },
     build: {
-        outDir: "dist"
+        outDir: "dist",
+        rollupOptions: {
+            input: {
+                home: "/index.html",
+                login: "/login.html",
+            }
+        }
     }
 });
