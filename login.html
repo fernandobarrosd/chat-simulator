@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Simulator - Login</title>
+    <link rel="stylesheet" type="text/css" href="src/css/login-style.css">
+</head>
+<body>
+    <div class="login-container">
+        <main class="login-main">
+            <section id="login-form-section">
+                <h1 id="login-form-title">Insira os dados abaixo</h1>
+                
+                <form id="login-form">
+                    <fieldset class="fields">
+                        <input type="text" name="sender-name"
+                        class="input" placeholder="Nome do enviador"
+                        required>
+    
+                        <input type="text" name="receiver-name"
+                        class="input" 
+                        placeholder="Nome do recebidor"
+                        required>
+                    </fieldset>
+                    <button class="button" id="btn-login">Entrar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="src/login-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import "./global-style.css";
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#login-form-section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#login-form-title {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    width: 280px;
+    text-align: center;
+}
+
+#login-form-title::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--white);
+    left: 0;
+    bottom: -15px;
+    position: absolute;
+}
+
+#login-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#login-form .fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.input {
+    background-color: transparent;
+    border-bottom: 1px solid var(--second-color);
+    color: var(--white);
+    padding-bottom: 4px;
+    width: 100%;
+    outline: none;
+    transition: .2s padding-bottom;
+    font-size: 14px;
+}
+
+
+.input:focus {
+    border-color: var(--white);
+    padding-bottom: 8px;
+}
+
+
+#btn-login {
+    width: 80%;
+    margin-top: 20px;
+    padding: 15px;
+}
